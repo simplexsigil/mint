@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriately as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="Muscles in Time (MinT) is a large-scale synthetic dataset for muscle activation simulation, derived from biomechanical human body models using OpenSim. It enables detailed analysis of muscle activation patterns during human motion.">
-  
-  <meta property="og:title" content="Muscles in Time (MinT) - A Synthetic Dataset for Muscle Activation"/>
-  <meta property="og:description" content="MinT is a synthetic dataset that provides large-scale muscle activation simulations for over nine hours of motion data, supporting neural network-based muscle activation estimation."/>
-  <meta property="og:url" content="https://davidschneider.ai/mint"/>
+  <meta name="description"
+    content="Muscles in Time (MinT) is a large-scale synthetic dataset for muscle activation simulation, derived from biomechanical human body models using OpenSim. It enables detailed analysis of muscle activation patterns during human motion.">
+
+  <meta property="og:title" content="Muscles in Time (MinT) - A Synthetic Dataset for Muscle Activation" />
+  <meta property="og:description"
+    content="MinT is a synthetic dataset that provides large-scale muscle activation simulations for over nine hours of motion data, supporting neural network-based muscle activation estimation." />
+  <meta property="og:url" content="https://davidschneider.ai/mint" />
   <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X630-->
   <meta property="og:image" content="https://davidschneider.ai/mint/static/images/mint_header.webp" />
-  <meta property="og:image:width" content="1483"/>
-  <meta property="og:image:height" content="678"/>
+  <meta property="og:image:width" content="1483" />
+  <meta property="og:image:height" content="678" />
 
   <meta name="twitter:title" content="Muscles in Time (MinT) - A Synthetic Dataset for Muscle Activation">
-  <meta name="twitter:description" content="Explore MinT, a large-scale synthetic dataset for muscle activation simulation. Derived from biomechanical models, it enables detailed insights into human motion and supports neural network-based estimation of muscle activation.">
+  <meta name="twitter:description"
+    content="Explore MinT, a large-scale synthetic dataset for muscle activation simulation. Derived from biomechanical models, it enables detailed insights into human motion and supports neural network-based estimation of muscle activation.">
   <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X600-->
   <meta name="twitter:image" content="https://davidschneider.ai/mint/static/images/mint_header.webp">
   <meta name="twitter:card" content="summary_large_image">
 
   <!-- Keywords for your paper to be indexed by -->
-  <meta name="keywords" content="Muscle activation, synthetic dataset, biomechanics, OpenSim, human motion, neural networks, musculoskeletal simulation, MinT, muscle simulation data">
+  <meta name="keywords"
+    content="Muscle activation, synthetic dataset, biomechanics, OpenSim, human motion, neural networks, musculoskeletal simulation, MinT, muscle simulation data">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Muscles in Time (MinT) - A Synthetic Muscle Activation Dataset</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -46,6 +49,7 @@
   <script src="static/js/index.js"></script>
   <script data-goatcounter="https://mint.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
+
 <body>
 
 
@@ -85,18 +89,20 @@
                 <a href="https://cvhci.iar.kit.edu/people_596.php" target="_blank">Rainer Stiefelhagen</a></sup>
               </span>
             </div>
-      
+
             <div class="is-size-5 publication-authors">
               <span class="author-block">Karlsruhe Institute of Technology, Mercedes-Benz Tech Innovation</span> <br>
               <span class="eql-cntrb"><small><sup>‡</sup>Mercedes-Benz Tech Innovation<br>
-                <sup>†</sup>Corresponding author: <a href="mailto:david.schneider@kit.edu">david.schneider∂kit.edu</a></small></span>
+                  <sup>†</sup>Corresponding author: <a
+                    href="mailto:david.schneider@kit.edu">david.schneider∂kit.edu</a></small></span>
             </div>
-      
+
             <div class="column has-text-centered">
               <div class="publication-links">
                 <!-- Arxiv PDF link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2411.00128" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/pdf/2411.00128" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
@@ -104,35 +110,39 @@
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="static/images/97794.webp" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <a href="static/images/97794.webp" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
                     <span>Poster</span>
                   </a>
                 </span>
-      
+
                 <span class="link-block">
-                  <a href="" style="pointer-events: none; cursor: default;" target="_blank" class="external-link button is-normal is-rounded is-dark is-primary has-background-primary-dark">
+                  <a href="https://radar.kit.edu/radar/de/dataset/VDPCEFSThBWlDPFL.Muscles%2BTime" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark is-primary has-background-primary-dark">
                     <span class="icon">
                       <i class="fa fa-database"></i>
                     </span>
-                    <span>Data (by 10.12.)</span>
+                    <span>Data</span>
                   </a>
                 </span>
 
                 <span class="link-block">
-                  <a href="" style="pointer-events: none; cursor: default;" target="_blank" class="external-link button is-normal is-rounded is-dark is-primary has-background-primary-dark">
+                  <a href="" style="pointer-events: none; cursor: default;" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark is-primary has-background-primary-dark">
                     <span class="icon">
                       <i class="fa fa-database"></i>
                     </span>
-                    <span>Metadata (by 10.12.)</span>
+                    <span>Metadata (soon)</span>
                   </a>
                 </span>
 
                 <!-- Github link -->
                 <span class="link-block">
-                  <a href="https://github.com/simplexsigil/MusclesInTime" target="_blank" class="external-link button is-normal is-rounded is-dark is-info has-background-info-dark">
+                  <a href="https://github.com/simplexsigil/MusclesInTime" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark is-info has-background-info-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
@@ -141,7 +151,8 @@
                 </span>
 
                 <span class="link-block">
-                  <a href="https://pypi.org/project/musint/" target="_blank" class="external-link button is-normal is-rounded is-dark is-info has-background-info-dark">
+                  <a href="https://pypi.org/project/musint/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark is-info has-background-info-dark">
                     <span class="icon">
                       <i class="fab fa-python"></i>
                     </span>
@@ -151,116 +162,207 @@
 
                 <br><br>
                 <div class="notification is-info is-light">
-                  <strong>Come visit us at our poster at NeurIPS 2024 in Vancouver on Thursday, 12th of December, 11 a.m. PST — 2 p.m. PST at West Ballroom A-D #5208!</strong>
+                  <strong>Come visit us at our poster at NeurIPS 2024 in Vancouver on Thursday, 12th of December, 11
+                    a.m. PST — 2 p.m. PST at West Ballroom A-D #5208!</strong>
                   <br><br>
-                  <strong><a href="https://neurips.cc/virtual/2024/poster/97794" target="_blank">NeurIPS 2024 Virtual Page</a></strong>
+                  <strong><a href="https://neurips.cc/virtual/2024/poster/97794" target="_blank">NeurIPS 2024 Virtual
+                      Page</a></strong>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <div class="hero-body" style="display: flex; justify-content: space-between;">
-        <video poster="" id="tree" autoplay controls muted loop height="100%" width="48%">
-          <source src="static/videos/Subject_31_F_MoSh__I__Subject_31_F_12.mp4" type="video/mp4">
-        </video>
-        <video poster="" id="anotherVideo" autoplay controls muted loop height="100%" width="48%">
-          <source src="static/videos/rub097__I__0029_scamper.mp4" type="video/mp4">
-        </video>
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div class="hero-body" style="display: flex; justify-content: space-between;">
+          <video poster="" id="tree" autoplay controls muted loop height="100%" width="48%">
+            <source src="static/videos/Subject_31_F_MoSh__I__Subject_31_F_12.mp4" type="video/mp4">
+          </video>
+          <video poster="" id="anotherVideo" autoplay controls muted loop height="100%" width="48%">
+            <source src="static/videos/rub097__I__0029_scamper.mp4" type="video/mp4">
+          </video>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          Animated SMPL body motions with simulated lower body muscle activations. Left leg (blue) and right leg
+          (orange). Solid lines: OpenSim simulations, dashed lines: model predictions.
+        </h2>
       </div>
-      <h2 class="subtitle has-text-centered">
-        Animated SMPL body motions with simulated lower body muscle activations. Left leg (blue) and right leg (orange). Solid lines: OpenSim simulations, dashed lines: model predictions.
-      </h2>
     </div>
-  </div>
-</section>
-<!-- End teaser video -->
+  </section>
+  <!-- End teaser video -->
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Muscles in Time (MinT) Dataset</h2>
-        <div class="content has-text-justified">
-          <p>
-            Exploring the intricate dynamics between muscular and skeletal structures is pivotal for understanding human motion. However, acquiring ground truth muscle activation data is resource-intensive and results in a scarcity of datasets. The <strong>Muscles in Time (MinT)</strong> dataset aims to address this by introducing a large-scale synthetic muscle activation dataset. MinT is created by enriching existing motion capture datasets with muscle activation simulations from biomechanical models using the <strong>OpenSim</strong> platform, a widely accepted tool in biomechanics and human motion research.
-          </p>
-          <p>
-            Neural networks designed for human motion understanding have historically relied on indirect data, like video or motion capture, similar to prisoners in Plato's cave who see only shadows rather than the true objects. Current systems, despite advances in capturing human motion, do not account for the complex inner mechanics—particularly the muscle activations driving human movement. These activations are key to understanding physical exertion and motion difficulty but are often overlooked due to the limitations of traditional data collection methods such as EMG.
-          </p>
-          <p>
-            To overcome these challenges, our dataset, MinT, incorporates simulations that provide detailed muscle activation information. Starting from simple pose sequences, we extract fine-grained muscle activation timings and interactions within the human musculoskeletal system. MinT contains over <strong>nine hours of simulation data</strong>, covering <strong>227 subjects and 402 muscle strands</strong>, offering a comprehensive and scalable resource for further research into human motion.
-          </p>
-          <figure>
-            <img src="static/images/mint_header.webp" alt="Simulation pipeline of the Muscles in Time dataset" />
-            <figcaption>Figure 1: Simulation pipeline of the Muscles in Time dataset. Motions are mapped to biomechanical human body models to simulate muscle activation, bridging computer vision and biomechanics.</figcaption>
-          </figure>
-          <p>
-            By bridging computer vision and biomechanical research, we enhance the set of tools available for understanding human motion. MinT facilitates the study of muscle activations with unprecedented scope and precision, enabling researchers to investigate the complex interplay between human pose sequences and the underlying biomechanics. This dataset represents a significant step forward in modeling human motion, with potential applications in robotics, physical rehabilitation, and sports science.
-          </p>
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Muscles in Time (MinT) Dataset</h2>
+          <div class="content has-text-justified">
+            <p>
+              Exploring the intricate dynamics between muscular and skeletal structures is pivotal for understanding
+              human motion. However, acquiring ground truth muscle activation data is resource-intensive and results in
+              a scarcity of datasets. The <strong>Muscles in Time (MinT)</strong> dataset aims to address this by
+              introducing a large-scale synthetic muscle activation dataset. MinT is created by enriching existing
+              motion capture datasets with muscle activation simulations from biomechanical models using the
+              <strong>OpenSim</strong> platform, a widely accepted tool in biomechanics and human motion research.
+            </p>
+            <p>
+              Neural networks designed for human motion understanding have historically relied on indirect data, like
+              video or motion capture, similar to prisoners in Plato's cave who see only shadows rather than the true
+              objects. Current systems, despite advances in capturing human motion, do not account for the complex inner
+              mechanics—particularly the muscle activations driving human movement. These activations are key to
+              understanding physical exertion and motion difficulty but are often overlooked due to the limitations of
+              traditional data collection methods such as EMG.
+            </p>
+            <p>
+              To overcome these challenges, our dataset, MinT, incorporates simulations that provide detailed muscle
+              activation information. Starting from simple pose sequences, we extract fine-grained muscle activation
+              timings and interactions within the human musculoskeletal system. MinT contains over <strong>nine hours of
+                simulation data</strong>, covering <strong>227 subjects and 402 muscle strands</strong>, offering a
+              comprehensive and scalable resource for further research into human motion.
+            </p>
+            <figure>
+              <img src="static/images/mint_header.webp" alt="Simulation pipeline of the Muscles in Time dataset" />
+              <figcaption>Figure 1: Simulation pipeline of the Muscles in Time dataset. Motions are mapped to
+                biomechanical human body models to simulate muscle activation, bridging computer vision and
+                biomechanics.</figcaption>
+            </figure>
+            <p>
+              By bridging computer vision and biomechanical research, we enhance the set of tools available for
+              understanding human motion. MinT facilitates the study of muscle activations with unprecedented scope and
+              precision, enabling researchers to investigate the complex interplay between human pose sequences and the
+              underlying biomechanics. This dataset represents a significant step forward in modeling human motion, with
+              potential applications in robotics, physical rehabilitation, and sports science.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End paper abstract -->
+  </section>
+  <!-- End paper abstract -->
 
-<!--BibTex citation -->
+  <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{schneider2024mint,
-        title = {Muscles in Time: Learning to Understand Human Motion In-Depth by Simulating Muscle Activations},
-        author = {Schneider, David and Reiß, Simon and Kugler, Marco and Jaus, Alexander and Peng, Kunyu and Sutschet, Susanne and Sarfraz, Muhammad Saquib and Matthiesen, Sven and Stiefelhagen, Rainer},
-        journal = {Advances in Neural Information Processing Systems},
-        year = {2025}
-      }</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
+      Please cite the following papers when using the MinT dataset:
+      <pre><code>% MinT
+@inproceedings{schneider2024muscles,
+               title={Muscles in Time: Learning to Understand Human Motion In-Depth by Simulating Muscle Activations},
+               author={Schneider, David and Rei{\ss}, Simon and Kugler, Marco and Jaus, Alexander and Peng, Kunyu and Sutschet, Susanne and Sarfraz, M Saquib and Matthiesen, Sven and Stiefelhagen, Rainer},
+               booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+               year={2024}
+              },
 
-<section class="section" id="Acknowledgements">
-  <div class="container is-max-desktop content">
-    <h2 class="title">Acknowledgements</h2>
-    This work has been supported by the Carl Zeiss Foundation through the
+% KIT Whole-Body Human Motion Database
+@inproceedings{AMASS_KIT-CNRS-EKUT-WEIZMANN,
+               author = {Christian Mandery and \"Omer Terlemez and Martin Do and Nikolaus Vahrenkamp and Tamim Asfour},
+               title = {The {KIT} Whole-Body Human Motion Database},
+               booktitle = {International Conference on Advanced Robotics (ICAR)},
+               pages = {329--336},
+               year = {2015},
+              }, 
+@article{AMASS_KIT-CNRS-EKUT-WEIZMANN-2,
+         author = {Christian Mandery and \"Omer Terlemez and Martin Do and Nikolaus Vahrenkamp and Tamim Asfour},
+         title = {Unifying Representations and Large-Scale Whole-Body Motion Databases for Studying Human Motion},
+         pages = {796--809},
+         volume = {32},
+         number = {4},
+         journal = {IEEE Transactions on Robotics},
+         year = {2016},
+        },
+@inproceedings{AMASS_KIT-CNRS-EKUT-WEIZMANN-3,
+               author = {Franziska Krebs and Andre Meixner and Isabel Patzer and Tamim Asfour},
+               title = {The {KIT} Bimanual Manipulation Dataset},
+               booktitle = {IEEE/RAS International Conference on Humanoid Robots (Humanoids)},
+               pages = {499--506},
+               year = {2021},
+              },
+
+% Total Capture
+@inproceedings{AMASS_TotalCapture,
+               author = {Trumble, Matt and Gilbert, Andrew and Malleson, Charles and Hilton, Adrian and Collomosse, John},
+               title = {{Total Capture}: 3D Human Pose Estimation Fusing Video and Inertial Sensors},
+               booktitle = {2017 British Machine Vision Conference (BMVC)},
+               year = {2017}
+              },
+
+% Eyes Japan MoCap Dataset
+@misc{AMASS_EyesJapanDataset,
+      title = {{Eyes Japan MoCap Dataset}},
+      author = {Eyes JAPAN Co. Ltd.},
+      url = {http://mocapdata.com}
+     },
+
+%BML
+@article{ghorbani2021movi,
+         title={MoVi: A large multi-purpose human motion and video dataset},
+         author={Ghorbani, Saeed and Mahdaviani, Kimia and Thaler, Anne and Kording, Konrad and Cook, Douglas James and Blohm, Gunnar and Troje, Nikolaus F},
+         journal={Plos one},
+         volume={16},
+         number={6},
+         pages={e0253157},
+         year={2021},
+         publisher={Public Library of Science San Francisco, CA USA}
+        },
+
+% AMASS
+@inproceedings{AMASS:2019,
+               title={AMASS: Archive of Motion Capture as Surface Shapes},
+               author={Mahmood, Naureen and Ghorbani, Nima and F. Troje, Nikolaus and Pons-Moll, Gerard and Black, Michael J.},
+               booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+               year={2019},
+               month = {Oct},
+               url = {https://amass.is.tue.mpg.de},
+               month_numeric = {10}
+              },
+</code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+  <section class="section" id="Acknowledgements">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Acknowledgements</h2>
+      This work has been supported by the Carl Zeiss Foundation through the
       JuBot project as well as by funding from the pilot program Core-Informatics of the Helmholtz Association (HGF).
       The authors acknowledge support by the state of Baden-Württemberg through bwHPC.
       Experiments were performed on the HoreKa supercomputer funded by the
       Ministry of Science, Research and the Arts Baden-Württemberg and by
       the Federal Ministry of Education and Research.
-  </div>
-</section>
+    </div>
+  </section>
 
   <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            <small>
-              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-            </small>
-          </p>
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              <small>
+                This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                  target="_blank">Academic Project Page Template</a>.
+              </small>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+  <!-- Statcounter tracking code -->
 
-    <!-- End of Statcounter Code -->
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
-  </body>
-  </html>
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
