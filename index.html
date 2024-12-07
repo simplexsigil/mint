@@ -40,13 +40,9 @@
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
+  <link href="static/css/prism.css" rel="stylesheet" />
+  <script src="static/js/prism.js"></script>
+  <script src="static/js/prism-bibtex.min.js"></script>
   <script data-goatcounter="https://mint.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
@@ -271,7 +267,7 @@
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       Please cite the following papers when using the MinT dataset:
-      <pre><code>% MinT
+      <pre class="language-bib"><code class="language-bib">% MinT
 @inproceedings{schneider2024muscles,
                title={Muscles in Time: Learning to Understand Human Motion In-Depth by Simulating Muscle Activations},
                author={Schneider, David and Rei{\ss}, Simon and Kugler, Marco and Jaus, Alexander and Peng, Kunyu and Sutschet, Susanne and Sarfraz, M Saquib and Matthiesen, Sven and Stiefelhagen, Rainer},
@@ -312,14 +308,14 @@
                year = {2017}
               },
 
-% Eyes Japan MoCap Dataset
+% Eyes Japan
 @misc{AMASS_EyesJapanDataset,
       title = {{Eyes Japan MoCap Dataset}},
       author = {Eyes JAPAN Co. Ltd.},
       url = {http://mocapdata.com}
      },
 
-%BML
+% BML
 @article{ghorbani2021movi,
          title={MoVi: A large multi-purpose human motion and video dataset},
          author={Ghorbani, Saeed and Mahdaviani, Kimia and Thaler, Anne and Kording, Konrad and Cook, Douglas James and Blohm, Gunnar and Troje, Nikolaus F},
@@ -380,7 +376,12 @@
   <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
   <!-- End of Statcounter Code -->
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script> -->
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <!-- <script src="static/js/bulma-carousel.min.js"></script> -->
+  <!-- <script src="static/js/bulma-slider.min.js"></script> -->
+  <script src="static/js/index.js"></script>
 </body>
 
 </html>
